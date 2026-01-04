@@ -8,7 +8,11 @@
 /* Base */
 body {
   font-family: 'Inter', sans-serif;
-  background: #0b0b0b;
+  background: radial-gradient(
+  1200px 600px at 20% 0%,
+  rgba(255, 255, 255, 0.04),
+  rgba(0, 0, 0, 0.95)
+  );
   color: #f5f5f5;
   line-height: 1.7;
   text-rendering: optimizeLegibility;
