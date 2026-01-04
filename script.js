@@ -1,6 +1,8 @@
 document.documentElement.classList.add('js');
 
 document.addEventListener("DOMContentLoaded", () => {
+
+  /* Scroll reveal */
   const reveals = document.querySelectorAll('.reveal');
 
   const observer = new IntersectionObserver(
@@ -16,10 +18,17 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   reveals.forEach(section => observer.observe(section));
-});
 
-document.querySelector('.logo')?.addEventListener('click', e => {
-  e.preventDefault();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-});
+  /* Logo scroll-to-top */
+  const logo = document.querySelector('.logo');
 
+  if (logo) {
+    logo.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+
+});
