@@ -9,6 +9,21 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Accesibility and transparent clicks */
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.4);
+  outline-offset: 3px;
+}
+
+
 /* Base */
 body {
   font-family: 'Inter', sans-serif;
