@@ -106,11 +106,11 @@ a:hover {
   z-index: 100;
   opacity: 0.85;
   pointer-events: auto;
+  transition: opacity 0.2s ease;
 }
 
 
 .logo img {
-  transition: opacity 0.2s ease;
   width: 55px;
   height: auto;
 }
