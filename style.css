@@ -150,7 +150,6 @@ a:hover {
   left: 48px;
   z-index: 100;
   opacity: 0.85;
-  cursor: pointer;
   pointer-events: auto;
   transition: opacity 0.2s ease;
 }
