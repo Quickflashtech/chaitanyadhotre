@@ -102,10 +102,12 @@ a:hover {
 .logo {
   position: fixed;
   top: 32px;
-  right: 48px;
+  left: 48px;
   z-index: 100;
   opacity: 0.85;
+  pointer-events: auto;
 }
+
 
 .logo img {
   width: 48px;
@@ -120,12 +122,13 @@ a:hover {
 @media (max-width: 768px) {
   .logo {
     top: 24px;
-    right: 24px;
+    left: 24px;
   }
 
   .logo img {
     width: 40px;
   }
 }
+
 
 
