@@ -110,6 +110,7 @@ a:hover {
 
 
 .logo img {
+  transition: opacity 0.2s ease;
   width: 55px;
   height: auto;
 }
