@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Base */
 body {
   font-family: 'Inter', sans-serif;
@@ -62,6 +66,7 @@ body {
   .hero-content {
     flex-direction: column-reverse;
     text-align: center;
+    gap: 30px;
   }
 
   .hero-photo img {
