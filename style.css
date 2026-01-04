@@ -98,5 +98,34 @@ a:hover {
   transform: translateY(0);
 }
 
+/* Logo */
+.logo {
+  position: fixed;
+  top: 32px;
+  right: 48px;
+  z-index: 100;
+  opacity: 0.85;
+}
+
+.logo img {
+  width: 48px;
+  height: auto;
+}
+
+.logo:hover {
+  opacity: 1;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+  .logo {
+    top: 24px;
+    right: 24px;
+  }
+
+  .logo img {
+    width: 40px;
+  }
+}
 
 
