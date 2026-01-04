@@ -34,6 +34,31 @@ body {
   margin-bottom: 10px;
 }
 
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.hero-photo img {
+  width: 180px;
+  height: auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-photo img {
+    width: 140px;
+    margin-bottom: 20px;
+  }
+}
+
 .tagline {
   font-size: 22px;
   font-weight: 500;
