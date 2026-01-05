@@ -1,6 +1,11 @@
 document.documentElement.classList.add('js');
 
 document.addEventListener("DOMContentLoaded", () => {
+  
+/* Disable context menu for image */
+  document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('contextmenu', e => e.preventDefault());
+});
 
   /* Scroll reveal */
   const reveals = document.querySelectorAll('.reveal');
