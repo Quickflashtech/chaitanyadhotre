@@ -196,7 +196,7 @@ a:hover {
 }
 
 .logo img {
-  width: 35px;
+  width: 34px;
   height: auto;
   display: block;
 }
@@ -213,7 +213,7 @@ a:hover {
   }
 
   .logo img {
-    width: 46px;
+    width: 40px;
   }
 }
 @media (max-width: 768px) {
