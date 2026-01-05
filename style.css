@@ -176,6 +176,9 @@ a:hover {
   cursor: pointer;
   pointer-events: auto;
   transition: opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo:focus {
@@ -190,6 +193,7 @@ a:hover {
 .logo img {
   width: 55px;
   height: auto;
+  display: block;
 }
 
 .logo:hover {
