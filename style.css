@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+html,
+body {
+  overscroll-behavior: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
