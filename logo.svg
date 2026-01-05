@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 40">
   <text
-    x="0"
+    x="32"
     y="30"
+    text-anchor="middle"
     font-family="Inter, Arial, sans-serif"
     font-size="28"
     font-weight="600"
