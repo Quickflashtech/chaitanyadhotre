@@ -218,12 +218,12 @@ a:hover {
 }
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.15;
   }
 
   .hero .tagline {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .hero .intro {
@@ -232,15 +232,15 @@ a:hover {
 }
 @media (max-width: 768px) {
   body {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .section h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .section p {
-    font-size: 15px;
+    font-size: 10px;
     line-height: 1.6;
   }
 }
