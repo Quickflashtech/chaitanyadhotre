@@ -243,9 +243,9 @@ a:hover {
     font-size: 12px;
     line-height: 1.6;
   }
-  .footer p {
-    font-size: 11 px
-}
+  footer {
+    font-size: 11 px;
+  }
 
 @media (prefers-reduced-motion: reduce) {
   * {
