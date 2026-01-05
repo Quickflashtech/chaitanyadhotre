@@ -223,7 +223,7 @@ a:hover {
   }
 
   .hero .tagline {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .hero .intro {
@@ -232,7 +232,7 @@ a:hover {
 }
 @media (max-width: 768px) {
   body {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .section h2 {
@@ -240,7 +240,7 @@ a:hover {
   }
 
   .section p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.6;
   }
 }
