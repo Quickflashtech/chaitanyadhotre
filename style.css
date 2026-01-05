@@ -154,6 +154,12 @@ footer a {
   transition: opacity 0.2s ease;
 }
 
+@media (max-width: 768px) {
+  footer {
+    font-size: 12px;
+  }
+
+
 a:hover {
   opacity: 1;
 }
@@ -243,9 +249,7 @@ a:hover {
     font-size: 12px;
     line-height: 1.6;
   }
-  footer {
-    font-size: 12 px;
-  }
+
 
 @media (prefers-reduced-motion: reduce) {
   * {
