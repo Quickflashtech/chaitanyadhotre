@@ -31,13 +31,110 @@
          <h1>Chaitanya Dhotre</h1>
            <p class="tagline"> Cybersecurity Student </p>
            <p class="intro">
-              Building strong fundamentals in cybersecurity while also learning new things related to tech.
+              Building network security tools and studying offensive security — from a
+              rogue access point detector with real-time risk scoring to hands-on
+              exploitation and digital forensics work.
            </p>
        </div>
            <div class="hero-photo">
               <img src="profile.jpg" alt="Chaitanya Dhotre" draggable="false">
            </div>
      </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card flagship">
+        <div class="project-card-head">
+          <h3>RogueAP Shield</h3>
+          <span class="project-meta">.NET 9 · Windows Service · 2026</span>
+        </div>
+        <p>
+          A Windows endpoint security tool that detects "evil twin" Wi-Fi attacks in real time.
+          Combines seven independent detection signals — beacon frame hardware fingerprinting,
+          gateway TTL anomalies, DNS resolution probing, and signal-strength baselining — into a
+          single weighted risk score, so a rogue access point can't hide behind a spoofed SSID or
+          MAC address alone. Backed by AES-256-GCM encrypted storage, a SHA-256 hash-chained
+          tamper-evident audit log, and an automatic WireGuard kill switch enforced at the kernel
+          level. Validated against a live evil-twin attack and a 53-access-point university campus
+          environment.
+        </p>
+        <div class="project-tags">
+          <span>C# / .NET 9</span>
+          <span>WPF</span>
+          <span>AES-256-GCM</span>
+          <span>WireGuard</span>
+          <span>Windows Filtering Platform</span>
+          <span>802.11</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/quickflashtech" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-head">
+          <h3>Kuch Bhi</h3>
+          <span class="project-meta">Flutter · In development · 2026</span>
+        </div>
+        <p>
+          An end-to-end encrypted messaging app built from scratch for a closed group of friends,
+          with WhatsApp-level polish as the bar. Offline-first architecture backed by a local
+          Drift/SQLite store, AES-256-GCM message encryption with X25519 key exchange running in
+          a background isolate so the UI never stutters, and a self-hosted PocketBase backend with
+          real-time delivery and read receipts. Currently mid-build on media messaging and group
+          chat encryption.
+        </p>
+        <div class="project-tags">
+          <span>Flutter</span>
+          <span>Riverpod</span>
+          <span>PocketBase</span>
+          <span>AES-256-GCM</span>
+          <span>Offline-first</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-head">
+          <h3>Marriott Starwood Breach — Forensic Investigation Plan</h3>
+          <span class="project-meta">Digital forensics coursework · 2026</span>
+        </div>
+        <p>
+          A full digital forensics investigation plan built around the real 2014 Marriott Starwood
+          breach, covering cybercrime classification, evidence acquisition strategy across
+          workstations and a MySQL server, and detection of a steganography-based anti-forensic
+          technique used to hide a keylogger inside an email image attachment.
+        </p>
+        <div class="project-tags">
+          <span>FTK Imager</span>
+          <span>EnCase</span>
+          <span>Steganalysis</span>
+          <span>Chain of Custody</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-head">
+          <h3>Vulnerability Exploitation Labs</h3>
+          <span class="project-meta">Offensive security coursework · 2026</span>
+        </div>
+        <p>
+          Hands-on exploitation writeups spanning a full SQL injection chain (CVE-2019-20183)
+          from recon through SQLMap exploitation, SNMP enumeration and hardening, an ARP-spoofing
+          packet-sniffing attack against an FTP server, and a Windows unquoted-service-path
+          privilege escalation to SYSTEM using a Metasploit reverse shell.
+        </p>
+        <div class="project-tags">
+          <span>Metasploit</span>
+          <span>SQLMap</span>
+          <span>Burp Suite</span>
+          <span>Wireshark</span>
+        </div>
+      </div>
+
+    </div>
   </section>
 
   <section class="section reveal">
