@@ -192,7 +192,7 @@ footer a {
   footer {
     font-size: 12px;
   }
-
+}
 
 a:hover {
   opacity: 1;
@@ -248,7 +248,7 @@ a:hover {
     font-size: 12px;
     line-height: 1.6;
   }
-
+}
 
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -258,6 +258,117 @@ a:hover {
   }
 }
 
+/* ============================= */
+/* Projects                      */
+/* ============================= */
 
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 24px;
+}
 
+.project-card {
+  border: 1px solid #232323;
+  border-radius: 10px;
+  padding: 28px 30px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+  transition: border-color 0.25s ease, transform 0.25s ease, background 0.25s ease;
+}
 
+.project-card:hover {
+  border-color: #3a3a3a;
+  transform: translateY(-2px);
+}
+
+.project-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.project-card h3 {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.project-meta {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.55;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.project-card p {
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.85;
+  margin-top: 10px;
+  line-height: 1.65;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.project-tags span {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 100px;
+  border: 1px solid #2c2c2c;
+  opacity: 0.75;
+  letter-spacing: 0.2px;
+}
+
+.project-links {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.project-links a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f5f5f5;
+  opacity: 0.7;
+  border-bottom: 1px solid rgba(245,245,245,0.25);
+  padding-bottom: 1px;
+  transition: opacity 0.2s ease;
+}
+
+.project-links a:hover {
+  opacity: 1;
+}
+
+.project-card.flagship {
+  border-color: #3d3d3d;
+  background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0));
+}
+
+.project-card.flagship h3 {
+  font-size: 23px;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 20px 20px;
+  }
+  .project-card h3 {
+    font-size: 17px;
+  }
+  .project-card p {
+    font-size: 13px;
+  }
+  .project-meta {
+    font-size: 11px;
+  }
+}
